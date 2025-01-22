@@ -90,17 +90,35 @@ nav a:focus {
 
 footer {
     background-color: #5FBFFF;
-    padding: 20px 0;
     border-top: 1px solid #16537b;
 }
 
+#social {
+    background-color: #4c9fd5;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 15px;
+}
 
+#social span {
+    font-size: 2rem;
+    margin-right: 20px;
+    cursor: default;
+}
+
+#social img {
+    cursor: pointer;
+}
 
 #links {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    margin-top: 40px;
 }
 
 #links span {
