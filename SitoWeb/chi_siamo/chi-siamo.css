@@ -1,0 +1,59 @@
+.header {
+  background-color: #ECC30B;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#lbig {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.ilteam:hover {
+  display: block;
+  color: #ECC30B;
+  background-color: black;
+}
+
+.chi-siamo {
+  font-style: italic;
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px #5FBFFF;
+}
+
+footer {
+  background-color: rgb(95, 191, 255, 0.3);
+}
+
+.titolo {
+  text-align: center;
+}
+
+.titolo:hover {
+  display: block;
+  color: #ECC30B;
+  background-color: black;
+}
+
+h2 {
+  text-decoration: overline underline;
+  text-decoration-color: #5FBFFF;
+  text-decoration-thickness: 2px;
+}
+
+th,
+td {
+  background-color: #5FBFFF;
+  display: flex;
+}
