@@ -1,0 +1,67 @@
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    background-color: #ECC30B;
+    border-radius: 0 0 30px 30px;
+}
+nav {
+    display: flex;
+    gap: 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+nav a {
+    color: #423600;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fffae3;
+    transform: scale(1.05);
+}
+
+nav a:focus {
+    color: #fffae3;
+    transform: scale(1.05);
+}
+
+body{
+    background-image: url(immagini/sfondoazienda.jpeg);
+    font-family: "Faustina", serif;
+    margin: 0;
+}
+.flex-h1{
+    display: flex;
+    justify-content: center;
+    border:solid;
+    
+
+}
+h1 {
+    margin-right: auto;
+    cursor: default;
+}
+.flex-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 10;
+}
+.flex-gallery>img{
+    margin: 30px;
+    padding: 20px;
+    border: 10px solid #ffffff;
+    
+   
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
