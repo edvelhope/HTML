@@ -1,8 +1,44 @@
-.header {
-  background-color: #ECC30B;
-  display: flex;
-  justify-content: space-between;
+body {
+  margin: 0;
+  font-family: "Faustina", serif;
+}
 
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  background-color: #ECC30B;
+  border-radius: 0 0 30px 30px;
+}
+
+h1 {
+  margin-right: auto;
+  cursor: default;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+nav a {
+  color: #423600;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fffae3;
+  transform: scale(1.05);
+}
+
+nav a:focus {
+  color: #fffae3;
+  transform: scale(1.05);
 }
 
 #lbig {
@@ -10,15 +46,12 @@
   display: block;
 }
 
-h1 {
-  text-align: center;
+.ilteam:hover {
+  color: #ECC30B;
 }
 
-
-.ilteam:hover {
-  display: block;
-  color: #ECC30B;
-  background-color: black;
+.ilteam {
+  text-align: center;
 }
 
 .chi-siamo {
@@ -33,7 +66,51 @@ hr {
 }
 
 footer {
-  background-color: rgb(95, 191, 255, 0.3);
+  background-color: #5FBFFF;
+  border-top: 1px solid #16537b;
+}
+
+#social {
+  background-color: #4c9fd5;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 15px;
+}
+
+#social span {
+  font-size: 2rem;
+  margin-right: 20px;
+  cursor: default;
+}
+
+#social img {
+  cursor: pointer;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+#links span {
+  cursor: default;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
 }
 
 .titolo {
@@ -43,17 +120,114 @@ footer {
 .titolo:hover {
   display: block;
   color: #ECC30B;
-  background-color: black;
+
 }
 
 h2 {
-  text-decoration: overline underline;
-  text-decoration-color: #5FBFFF;
-  text-decoration-thickness: 2px;
+  text-align: center;
 }
 
-th,
-td {
-  background-color: #5FBFFF;
+h2:hover {
+  color: #5FBFFF;
+}
+
+.values {
+  flex-wrap: wrap;
+  border: 0;
+  box-shadow: 0 0 10px 1px #8a8a8a41;
+  border-style: solid;
+  border-color: black;
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.descrizione {
+  font-weight: 900;
+  position: absolute;
+  color: #000000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.prima {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.seconda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.terza {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.quarta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.descrizione:hover {
+
+  border-color: #5FBFFF;
+  background-position-y: left;
+  background-position-x: left;
+}
+
+.foto {
+  opacity: 0.3;
+}
+
+.foto:hover {
+  opacity: 0;
+}
+
+.container {
+  font-weight: 900;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 #ECC30B;
+  width: 100%;
+}
+
+.team {
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(img/MASE_Industries__3_-removebg-preview.png);
+  background-repeat: repeat-y;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  margin-top: 10px;
+
+  align-content: center;
+}
+
+.lav {
+  background-color: white;
+  font-size: 20px;
+}
+
+.capitoli {
+  box-shadow: 0 0 20px 0px #d8f0ff;
 }
