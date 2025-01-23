@@ -32,7 +32,7 @@ nav a:focus {
 }
 
 body{
-    background-image: url(immagini/sfondoazienda.jpeg);
+   
     font-family: "Faustina", serif;
     margin: 0;
 }
@@ -46,6 +46,7 @@ body{
 h1 {
     margin-right: auto;
     cursor: default;
+  
 }
 .flex-gallery{
     display: flex;
@@ -53,15 +54,75 @@ h1 {
     flex-wrap: wrap;
     justify-content:space-around;
     margin-top: 10;
+    margin-bottom: 10;
 }
 .flex-gallery>img{
     margin: 30px;
     padding: 20px;
-    border: 10px solid #ffffff;
+    border: 10px solid #000000;
     
    
+}
+.img{border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400;
+}
+p{
+    padding: 20px;
+    
 }
 div.desc {
     padding: 15px;
     text-align: center;
   }
+  h1{
+    text-align: center;
+  }
+  footer {
+    background-color: #5FBFFF;
+    border-top: 1px solid #16537b;
+}
+
+#social {
+    background-color: #4c9fd5;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 15px;
+}
+
+#social span {
+    font-size: 2rem;
+    margin-right: 20px;
+    cursor: default;
+}
+
+#social img {
+    cursor: pointer;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+
+#links span {
+    cursor: default;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
