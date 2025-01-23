@@ -60,7 +60,11 @@ form {
   justify-content: space-between;
   padding-right: 20px;
   background-color: #ecc30b;
-  border-radius: 0 0 30px 30px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 #header h1 {
