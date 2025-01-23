@@ -1,88 +1,139 @@
 h1{
-    text-align: center;
-    font-size: 50px;
-    margin-right: auto;
-  cursor: default;
-  }   
-  nav{
-    text-align: end;
-  }
-  #messaggio{
-    width: 350px;
-    height: 150px;
-    resize: none;
-  }
-  #logo{
-    position:absolute;
-  }
-  body{
-    font-family: "Faustina", serif;
-  font-optical-sizing: auto;
-  flex-wrap: wrap;
- 
-  
+  text-align: center;
+  font-size: 50px;
+  margin-right: auto;
+cursor: default;
+}   
+nav{
+  text-align: end;
+}
+#messaggio{
+  width: 350px;
+  height: 150px;
+  resize: none;
+}
+#logo{
+  position:absolute;
+}
+body{
+  font-family: "Faustina", serif;
+font-optical-sizing: auto;
+
+
+
 }
 .contattaci{
-  display: flex;
-  
-  justify-content: space-between;
-  
+display: flex;
+
+justify-content: space-between;
+
 }
 tr,td{
-  font-size: 30px;
+font-size: 30px;
 }
 #mappa{
-  display: flex;
-  justify-content: center;
-  
- 
+display: flex;
+justify-content: center;
+margin-right: 50px;
+
+
 }
 #bottone{
-  background-color:#5FBFFF;
-  color:#FFFFFF;
-  padding: 5px;
-  width: 100px;
+background-color:#5FBFFF;
+color:#FFFFFF;
+padding: 5px;
+width: 100px;
 }
 table{
-  border-style: solid;
-  border-color: #5FBFFF;
+border-style: solid;
+border-color: #5FBFFF;
 }
 input {
-  width: 250px;
+width: 250px;
 }
 #header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 20px;
-  background-color: #ECC30B;
-  border-radius: 0 0 30px 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 20px;
+background-color: #ECC30B;
+border-radius: 0 0 30px 30px;
 }
 
 
 nav {
-  display: flex;
-  gap: 30px;
-  font-size: 1.2rem;
-  font-weight: 700;
+display: flex;
+gap: 30px;
+font-size: 1.2rem;
+font-weight: 700;
 }
 
 nav a {
-  color: #423600;
-  cursor: pointer;
-  transition: color 0.3s ease, transform 0.3s ease;
-  text-decoration: none;
+color: #423600;
+cursor: pointer;
+transition: color 0.3s ease, transform 0.3s ease;
+text-decoration: none;
 }
 
 nav a:hover {
-  color: #fffae3;
-  transform: scale(1.05);
+color: #fffae3;
+transform: scale(1.05);
 }
 
 nav a:focus {
-  color: #fffae3;
-  transform: scale(1.05);
+color: #fffae3;
+transform: scale(1.05);
 }
+footer {
+background-color: #5FBFFF;
+border-top: 1px solid #16537b;
+margin-top: 10px;
+}
+
+#social {
+background-color: #4c9fd5;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 6px;
+margin-bottom: 15px;
+}
+
+#social span {
+font-size: 2rem;
+margin-right: 20px;
+cursor: default;
+}
+
+#social img {
+cursor: pointer;
+}
+
+#links {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+margin-top: 40px;
+}
+
+#links span {
+cursor: default;
+}
+
+ul {
+display: flex;
+list-style-type: none;
+gap: 30px;
+}
+
+li a {
+text-decoration: none;
+color: black;
+}
+
+  
   
     
   
