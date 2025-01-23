@@ -5,13 +5,22 @@
     justify-content: space-between;
     padding-right: 20px;
     background-color: #ECC30B;
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
+#header h1 {
+    margin-right: auto;
+    cursor: default;
+  }
 nav {
     display: flex;
     gap: 30px;
     font-size: 1.2rem;
     font-weight: 700;
+
 }
 
 nav a {
@@ -34,34 +43,26 @@ nav a:focus {
 body{
    
     font-family: "Faustina", serif;
-    margin: 0;
+    margin: 0;    
 }
-.flex-h1{
-    display: flex;
-    justify-content: center;
-    border:solid;
-    
 
-}
-h1 {
-    margin-right: auto;
-    cursor: default;
-  
-}
+
 .flex-gallery{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
-    margin-top: 10;
-    margin-bottom: 10;
+    margin-top: 40;
+    margin-bottom: 40;
 }
 .flex-gallery>img{
     margin: 30px;
-    padding: 20px;
-    border: 10px solid #000000;
-    
-   
+    padding: 40px;
+    border: 10px solid #000000; 
+}
+.img:hover{
+    color: black;
+    transform: scale(1.05); 
 }
 .img{border: 2px solid black;
     border-radius: 10px;
