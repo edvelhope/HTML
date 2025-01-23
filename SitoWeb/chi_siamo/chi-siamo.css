@@ -1,6 +1,10 @@
 body {
-  margin: 0;
+  margin: 0px;
   font-family: "Faustina", serif;
+}
+
+p {
+  font-size: 20px;
 }
 
 #header {
@@ -41,10 +45,6 @@ nav a:focus {
   transform: scale(1.05);
 }
 
-#lbig {
-  max-width: 100%;
-  display: block;
-}
 
 .ilteam:hover {
   color: #ECC30B;
@@ -60,6 +60,7 @@ nav a:focus {
 }
 
 hr {
+  margin: 100px;
   border: 0;
   height: 0;
   box-shadow: 0 0 10px 1px #5FBFFF;
@@ -125,6 +126,7 @@ li a {
 
 h2 {
   text-align: center;
+
 }
 
 h2:hover {
@@ -132,31 +134,33 @@ h2:hover {
 }
 
 .values {
-  flex-wrap: wrap;
+  margin: 0px 40px;
   border: 0;
   box-shadow: 0 0 10px 1px #8a8a8a41;
   border-style: solid;
   border-color: black;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .descrizione {
   font-weight: 900;
   position: absolute;
   color: #000000;
-  flex-direction: column;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+}
+
+.descrizione:hover {
+  background-color: white;
 }
 
 .prima {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  color: ;
 }
 
 .seconda {
@@ -180,35 +184,33 @@ h2:hover {
   justify-content: center;
 }
 
-.descrizione:hover {
 
-  border-color: #5FBFFF;
-  background-position-y: left;
-  background-position-x: left;
-}
 
 .foto {
   opacity: 0.3;
 }
 
 .foto:hover {
-  opacity: 0;
+  opacity: 1;
 }
 
 .container {
+  margin: 50px;
   font-weight: 900;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  box-shadow: 0 4px 8px 0 #ECC30B;
+  box-shadow: 0 4px 8px 0 #5FBFFF;
   width: 100%;
 }
 
 .team {
-  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(img/MASE_Industries__3_-removebg-preview.png);
-  background-repeat: repeat-y;
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(MASE_Industries__3_-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -224,10 +226,43 @@ h2:hover {
 }
 
 .lav {
-  background-color: white;
-  font-size: 20px;
+  font-size: 50px;
+  /*background-color: white;*/
+
 }
 
 .capitoli {
-  box-shadow: 0 0 20px 0px #d8f0ff;
+  margin: 10px;
+  box-shadow: 0 0 20px 0px #0000001f;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.capitoli:hover {
+  background-color: rgb(236, 195, 11, 0.3);
+}
+
+.capitolo {
+  margin: 10px;
+  box-shadow: 0 0 20px 0px #0000001f;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.capitolo:hover {
+  background-color: rgb(236, 195, 11, 0.3);
+
+}
+
+.mission {
+  text-align: right;
+}
+
+.vision {
+  text-align: left;
+  margin-right: 0;
+}
+
+.competenze {
+  margin: 50px;
 }
