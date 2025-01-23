@@ -1,137 +1,195 @@
 body {
-    font-family: "Faustina", serif;
-    min-height: 100vh;
-    margin: 0;
+  font-family: "Faustina", serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-position: -3% 30%;
+  background-attachment: fixed;
+  opacity: 0.3;
+  z-index: -1;
 }
 
 #header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 20px;
-    background-color: #ECC30B;
-    border-radius: 0 0 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  background-color: #ecc30b;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 h1 {
-    margin-right: auto;
-    cursor: default;
+  margin-right: auto;
+  cursor: default;
 }
 
 nav {
-    display: flex;
-    gap: 30px;
-    font-size: 1.2rem;
-    font-weight: 700;
+  display: flex;
+  gap: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 nav a {
-    color: #423600;
-    cursor: pointer;
-    transition: color 0.3s ease, transform 0.3s ease;
-    text-decoration: none;
+  color: #423600;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
 }
 
 nav a:hover {
-    color: #fffae3;
-    transform: scale(1.05);
+  color: #fffae3;
+  transform: scale(1.05);
 }
 
 nav a:focus {
-    color: #fffae3;
-    transform: scale(1.05);
+  color: #fffae3;
+  transform: scale(1.05);
 }
 
-#banner {
-    background-color: #FFFFFF;
-    max-width: 1440px;
-    width: 1244px;
-    margin: 0 auto;
-    padding-bottom: 80px;
-    flex: 1;
+.banner {
+  max-width: 1440px;
+  width: 1244px;
+  margin: 0 auto;
 }
 
-#banner :first-child {
-    font-size: 2rem;
-    padding-bottom: 30px;
+.banner > h2 {
+  font-size: 2rem;
+  padding-bottom: 30px;
+  margin-top: 80px;
+}
+
+.banner > p {
+  font-size: 1.6rem;
 }
 
 #sezioni {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .paragrafo {
-    background-color: #ededed;
-    border: solid #2374aa;
-    border-width: 1px;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    cursor: default;
+  background-color: #ededed;
+  border: solid #2374aa;
+  border-width: 1px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: default;
 }
 
 .paragrafo:hover {
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 .paragrafo p {
-    font-size: 1.15rem;
-    padding: 0px 60px;
-    color: #646464;
-    line-height: 1.6;
+  font-size: 1.15rem;
+  padding: 0px 60px;
+  color: #646464;
+  line-height: 1.6;
 }
 
 .paragrafo h2 {
-    margin-top: 20px;
-    padding-left: 40px;
-    font-size: 1.4rem;
+  margin-top: 20px;
+  padding-left: 40px;
+  font-size: 1.4rem;
+}
+
+hr {
+  margin: 80px 0;
+}
+
+#section-box {
+  background-color: #ededed;
+  padding: 40px 0;
+}
+
+section {
+  display: flex;
+  gap: 50px;
+}
+
+section p {
+  font-size: 1.4rem;
+}
+
+.button {
+  margin-top: 40px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 14px;
+  background-color: #ecc30b;
+  border: none;
+  border-radius: 2px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffe679;
+  color: #ffffff;
+  transform: scale(1.05);
+  border: solid 1px black;
 }
 
 footer {
-    background-color: #5FBFFF;
-    border-top: 1px solid #16537b;
+  background-color: #5fbfff;
+  border-top: 1px solid #16537b;
+  margin-top: 80px;
 }
 
 #social {
-    background-color: #4c9fd5;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 15px;
+  background-color: #4c9fd5;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 15px;
 }
 
 #social span {
-    font-size: 2rem;
-    margin-right: 20px;
-    cursor: default;
+  font-size: 2rem;
+  margin-right: 20px;
+  cursor: default;
 }
 
 #social img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 40px;
 }
 
 #links span {
-    cursor: default;
+  cursor: default;
 }
 
 ul {
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
 }
 
 li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
