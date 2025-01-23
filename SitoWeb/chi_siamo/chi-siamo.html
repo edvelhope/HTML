@@ -10,16 +10,15 @@ Una sezione con immagini del team (usa immagini generiche di persone o placehold
 <link rel="stylesheet" href="chi-siamo.css">
 
 <head>
-    <div class="header">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <div>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap"
             rel="stylesheet">
-        <img id="lbig" src="img/MASE_Industries__3_-removebg-preview.png" width="50">
-        <a class="home.html" href="#HOME">HOME </a>
-        <a href="chi-siamo.html"> CHI SIAMO </a>
-        <a href="servizi.html">SERVIZI </a>
-        <a href="contatti.html">CONTATTI </a><br>
+
     </div>
 
     <title>Chi siamo</title>
@@ -27,14 +26,28 @@ Una sezione con immagini del team (usa immagini generiche di persone o placehold
 </head>
 
 <body>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <div id="header">
+        <img src="img/MASE_Industries__3_-removebg-preview.png" alt="Turismo" height="60px" />
+        <h1>AMEOS</h1>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">CHI SIAMO</a>
+            <a href="#">SERVIZI</a>
+            <a href="#">CONTATTI</a>
+        </nav>
+    </div>
     <h1 class="titolo">CHI SIAMO</h1>
     <p class="chi-siamo">AMEOS è una società di consulenza basata a Roma; ci occupiamo di problem solving per questioni
         complesse.</p>
-    <hr>
-    <h2>MISSION</h2>
-    <p>Trovare soluzioni innovative a problemi importanti</p>
-    <h2>VISION</h2>
-    <p>Far parte di un ecosistema sostenibile in linea coi valori di PARIGI 2030.</p>
+    <div class="capitoli">
+        <h2>MISSION</h2>
+        <p>Trovare soluzioni innovative a problemi importanti</p>
+    </div>
+    <div class="capitoli">
+        <h2>VISION</h2>
+        <p>Far parte di un ecosistema sostenibile in linea coi valori di PARIGI 2030.</p>
+    </div>
     <h2>I NOSTRI VALORI</h2>
     <section class="values">
         <div class="prima">
@@ -50,7 +63,7 @@ Una sezione con immagini del team (usa immagini generiche di persone o placehold
             <div class="descrizione">ETHICS & BUSINESS CONDUCT</div>
         </div>
         <div class="quarta">
-            <div class="foto"><img src="img/gender_eq.jpg" width="200" height="200"></div>
+            <div class="foto"><img src="img/gender_eq.jpg" width="200" height=""></div>
             <div class="descrizione">GENDER EQUALITY</div>
         </div>
 
@@ -65,29 +78,48 @@ Una sezione con immagini del team (usa immagini generiche di persone o placehold
 
         Grazie a una profonda conoscenza dei settori di mercato, possiamo sviluppare soluzioni ideate appositamente per
         rispondere alle sfide uniche dei nostri clienti e per aiutarli a raggiungere i loro obiettivi specifici.</p>
+    <hr>
     <h1 class="ilteam">IL TEAM</h1>
     <section class="team">
         <div class="container">
-            <div>DEVELOPERS</div>
-            <div>><img src="img/happy.webp" alt="" width="200"></div>
-            <div>>SALES</div>
-            <div>><img src="img/360_F_650245616_WUPkDzObkPLVyegasDCeNhQXvFVVJoKn.jpg" alt="prima immagine" width="200">
-            </div>
-            <div>>SECURITY</div>
-            <div>><img src="img/happyw.jpeg" alt="prima immagine" width="200"></div>
-            <div>>FRONT OFFICE</div>
-            <div>><img src="img/couple.jpeg" alt="prima immagine" width="200"></div>
+            <div class="card"><img src="img/happy.webp" alt="" width="300"></div>
+            <p class="lav">DEVELOPERS</p>
+        </div>
+        <div class="container">
+            <div class="card"><img src="img/360_F_650245616_WUPkDzObkPLVyegasDCeNhQXvFVVJoKn.jpg" alt="prima immagine"
+                    width="300"></div>
+            <p class="lav">SALES</p>
+        </div>
+        <div class="container">
+            <div class="card"><img src="img/happyw.jpeg" alt="prima immagine" width="300"></div>
+            <p class="lav">SECURITY</p>
+        </div>
+        <div class="container">
+            <div class="card"><img src="img/couple.jpeg" alt="prima immagine"></div>
+            <p class="lav">FRONT OFFICE</p>
         </div>
     </section>
     <footer>
-        <img src="img/MASE_Industries__3_-removebg-preview.png" height="50">
-        <small>| AMEOS: Consulting Specialists© |
-            <a href="mailto:hege@example.com">ameos@example.com |</a>
-            <a href="https://www.instagram.com"><img src="img/Instagram_logo_2022.svg" width="20"></a>
-            <span> | </span>
-            <a href="https://www.google.com" id="google"> <img src="img/google.webp" width="30"></a>
-            <script src="https://kit.fontawesome.com/386167f89d.js" crossorigin="anonymous"></script>
+        <div id="social">
+            <span>Follow us</span><img src="img/fb.webp" alt="x" width="28px" height="28px" /><img src="img/x.png"
+                width="28px" height="28px" /><img src="img/yt.webp" alt="yt" width="28px" height="28px" /><img
+                src="img/in.webp" alt="in" width="28px" height="28px" />
+        </div>
+        <img src="img/MASE_Industries__3_-removebg-preview.png" alt="Turismo" height="50px" />
+        <div id="links">
+            <span>© 2023 AMEOS. All rights reserved.</span>
+            <ul>
+                <li><a href="#">Contattaci</a></li>
+                <li><a href="#">I nostri uffici</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Impostazioni dei cookie</a></li>
+            </ul>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
