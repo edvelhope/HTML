@@ -209,7 +209,7 @@ h2:hover {
 .team {
   background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(MASE_Industries__3_-removebg-preview.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 50%;
   background-position: 50%;
   display: flex;
   flex-wrap: wrap;
